@@ -178,8 +178,10 @@ a {
   .main-content table th {
     font-weight: bold; }
   .main-content table th, .main-content table td {
-    padding: 0.5rem 1rem;
-    border: 1px solid #e9ebec; }
+    padding: 0.25rem 0.25rem 0rem;
+    border: 1px solid #9933ff;
+    border-width: 0.2em
+}
 .main-content dl {
   padding: 0; }
   .main-content dl dt {
@@ -273,6 +275,16 @@ li {
   margin-top: 1em;
 }
 
-.minipics {
-  width:50%;
+.minipics { 
+  margin-left: 15%;
+  
+  width:75%;
+}
+
+h3 {
+  text-align: center;
+}
+
+.centrepics{
+  width: 110%;
 }
